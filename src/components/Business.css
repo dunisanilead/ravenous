@@ -1,0 +1,13 @@
+.business-details {
+ display: flex;
+ justify-content: space-between;
+}
+.business-address p,
+.business-info p {
+  text-align: left;
+  margin: 2px 0;  /* Reduces top and bottom spacing */
+}
+
+.name {
+ text-align: left;
+}
