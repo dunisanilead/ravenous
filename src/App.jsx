@@ -1,5 +1,6 @@
 import './App.css'
 import Business from './components/Business'; 
+import SearchBar from './components/SearchBar';
 
 const businessData = {
   src: 'src/assets/Romans-Pizza-Logo.jpg',
@@ -19,7 +20,9 @@ function App() {
 
   return (
     <>
+      <SearchBar />
       <Business business={businessData}/>
+      
     </>
   );
 }
