@@ -1,6 +1,7 @@
 .business-details {
  display: flex;
  justify-content: space-between;
+ gap: 40px;
 }
 .business-address p,
 .business-info p {

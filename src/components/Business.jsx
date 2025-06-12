@@ -1,35 +1,30 @@
 import React from "react";
 import './Business.css';
 
-const businessImage = {
- src: 'src/assets/Romans-Pizza-Logo.jpg',
- alt: 'roman-pizza',
- width: '250px',
- height: '250px'
-}
 
-function Business() {
+
+function Business({business}) {
   return (
    <div>
      <img 
-       src={businessImage.src}
-       alt={businessImage.alt} 
-       width={businessImage.width}
-       height={businessImage.height}/>
+       src={business.src}
+       alt={business.alt} 
+       width={business.width}
+       height={business.height}/>
 
-     <div className="name"><h3>Roman's Pizza</h3></div>
+     <div className="name"><h3>{business.name}</h3></div>
 
      <div className="business-details">
       <div className="business-address">
-        <p>Pretorious St</p>
-        <p>Pretoria</p>
-        <p>Gauteng 0964</p>
+        <p>{business.address}</p>
+        <p>{business.city}</p>
+        <p>{business.zipCode}</p>
       </div>
 
       <div className="business-info">
-        <p><strong>ITALIAN</strong></p>
-        <p>4.0 stars</p>
-        <p>60 reviews</p>
+        <p><strong>{business.category}</strong></p>
+        <p><strong>{business.rating} stars</strong></p>
+        <p>{business.reviewCount} reviews</p>
       </div>
      </div>
 
