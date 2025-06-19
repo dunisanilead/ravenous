@@ -4,9 +4,9 @@ header {
  position: sticky;
  top: 0;
  z-index: 1000;
- background-color: rgba(255, 255, 255, 0.8);
+ background-color: rgba(159, 159, 49, 0.8);
  backdrop-filter: blur(10px);
- color: #111;
+ color: #010101;
  padding: 1rem 2rem;
  text-align: center;
  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -16,9 +16,15 @@ header {
 /* Hero section */
 .hero {
  grid-area: hero;
- background-color: #26507af0;
+ background-image: url('/public/firas.jpg');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
  padding: 2rem;
  text-align: center;
+}
+.hero h2 {
+ color: aliceblue;
 }
 
 /* Main content area */
