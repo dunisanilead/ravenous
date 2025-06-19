@@ -1,9 +1,21 @@
-*, *::before, *::after { 
-  box-sizing: border-box; 
-}
-
-* {
+/* Reset and basic styles */
+body, html {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #dcf7d9;
 }
+
+/* Grid layout for the entire page */
+#root {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  grid-template-areas:
+    "header"
+    "hero"
+    "main";
+  min-height: 100vh;
+}
+
 

@@ -1,0 +1,29 @@
+/* Header */
+header {
+ grid-area: header;
+ position: sticky;
+ top: 0;
+ z-index: 1000;
+ background-color: rgba(255, 255, 255, 0.8);
+ backdrop-filter: blur(10px);
+ color: #111;
+ padding: 1rem 2rem;
+ text-align: center;
+ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+ font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+ grid-area: hero;
+ background-color: #26507af0;
+ padding: 2rem;
+ text-align: center;
+}
+
+/* Main content area */
+main {
+ grid-area: main;
+ padding: 2rem;
+ gap: 1.5rem;
+}

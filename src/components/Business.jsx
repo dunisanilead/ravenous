@@ -1,4 +1,5 @@
 import React from 'react';
+import './Business.css'
 
 //This component represents how a business(e.g a restaurant) in ravenous will be formatted and styled. The business has an image, name, address, etc
 function Business(props) {

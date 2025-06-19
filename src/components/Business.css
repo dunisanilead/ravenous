@@ -1,0 +1,21 @@
+.Business {
+ min-height: 300px;
+ max-width: 310px;
+ display: flex;
+ flex-direction: column;
+ text-align: left;
+}
+
+
+img {
+ height: 250px;
+ width: 300px;
+}
+
+.Business-information {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ text-align: left;
+ gap: 90px;
+}

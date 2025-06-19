@@ -1,5 +1,6 @@
 import React from 'react';
 import Business from './Business'; 
+import './BusinessList.css'
 
 function BusinessList() {
   const businesses = [
